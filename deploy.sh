@@ -12,7 +12,7 @@
 GOOS=linux GOARCH=amd64 go build -o bin/main cmd/*.go
 
 # Deploy the binary file from local machine to the server
-rsync --archive --compress --delete bin/main ${SSH_URL}:${PATH}/bin/
+rsync --archive --compress --delete bin/main ${SSH_URL}:${SERVICE_PATH}/bin/
 
 # Restart the service on the server
 ssh "${SSH_URL}" "

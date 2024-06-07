@@ -37,7 +37,7 @@ export SERVICE_NAME=""
 # Format:
 #   /var/www/example.com
 #
-export PATH="."
+export SERVICE_PATH="."
 
 # Randomly generated base64 encoded 32 byte string
 # used for various purposes such as signing tokens and
