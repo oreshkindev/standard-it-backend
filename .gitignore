@@ -1,0 +1,15 @@
+# Executed scripts
+env.sh
+
+# Bin
+bin
+
+# Local uploaded files folder
+in
+
+# Logs
+logs
+*.log
+
+# Editor directories and files
+.vscode/*
