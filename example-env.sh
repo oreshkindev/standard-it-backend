@@ -5,7 +5,7 @@
 # Variables:
 #   PORT (str): The port to bind the server to.
 #
-export PORT=":9000"
+export SERVICE_PORT=":9000"
 
 # Database settings
 #
