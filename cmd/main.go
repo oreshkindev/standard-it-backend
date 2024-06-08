@@ -16,6 +16,7 @@ func main() {
 	defer cancel()
 
 	if connection, err = database.New(ctx); err != nil {
+		// There is no need to run the application without connecting to the database.
 		panic(err)
 	}
 	// Close the connection when the program exits.
