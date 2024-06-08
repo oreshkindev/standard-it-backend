@@ -9,6 +9,8 @@ It doesn't matter which database driver you want to use, it can be Mongo, Arango
 You can create a new directory or several for different drivers inside. Each directory should contain a file with Dial() function,
 and in `package database` you can switch between necessary drivers.
 
+### Usage
+
 ```go
 // Create a context that is cancellable and cancel it on exit.
 ctx, cancel := context.WithCancel(context.Background())
